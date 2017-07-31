@@ -1,0 +1,27 @@
+{
+  "name": "streambox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "colors": "^1.1.2",
+    "consolidate": "^0.14.5",
+    "copy-dir": "^0.3.0",
+    "front-matter": "^2.1.2",
+    "glob": "^7.1.1",
+    "handlebars": "^4.0.6",
+    "json-pointer": "^0.6.0",
+    "marked": "^0.3.6",
+    "mkdirp": "^0.5.1"
+  }
+}
