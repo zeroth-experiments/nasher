@@ -1,6 +1,6 @@
 {
   "name": "stblock",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Yet another static site generator written in NodeJs ",
   "main": "index.js",
   "scripts": {
