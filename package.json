@@ -1,12 +1,15 @@
 {
   "name": "stblock",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Yet another static site generator written in NodeJs ",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["static", "static site generator"],
+  "keywords": [
+    "static",
+    "static site generator"
+  ],
   "author": "Abhishek Patil <abhishek@zeroth.me> (https://zeroth.me)",
   "license": "MIT",
   "dependencies": {
@@ -21,8 +24,7 @@
     "marked": "^0.3.6",
     "mkdirp": "^0.5.1"
   },
-
-   "repository": {
+  "repository": {
     "type": "git",
     "url": "git@github.com:zeroth-experiments/stblock.git"
   }
