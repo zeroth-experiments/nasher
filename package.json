@@ -1,17 +1,14 @@
 {
-  "name": "streambox",
-  "version": "1.0.0",
-  "description": "",
+  "name": "stblock",
+  "version": "0.0.1",
+  "description": "Yet another static site generator written in NodeJs ",
   "main": "index.js",
-  "directories": {
-    "test": "test"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["static", "static site generator"],
+  "author": "Abhishek Patil <abhishek@zeroth.me> (https://zeroth.me)",
+  "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.0",
     "colors": "^1.1.2",
@@ -23,5 +20,10 @@
     "json-pointer": "^0.6.0",
     "marked": "^0.3.6",
     "mkdirp": "^0.5.1"
+  },
+
+   "repository": {
+    "type": "git",
+    "url": "git@github.com:zeroth-experiments/stblock.git"
   }
 }
