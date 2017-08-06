@@ -1,7 +1,7 @@
-const Box = require('./lib/box');
+const Nasher = require('./lib/nasher');
 const logger = require('./lib/logger');
 
 module.exports = {
-    Box: Box,
+    Nasher: Nasher,
     logger: logger
 };
