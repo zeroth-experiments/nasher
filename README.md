@@ -48,12 +48,28 @@ Basic structure:
   
    "theme_dir": "./theme",
    "site_assets":"./assets",
-   "paginate" : {
-       "limit": -1,
-       "<name of the list>": {
-           "sortBy":"date",
-           "create_index": false
-       }
+   "pagination" : {
+       "limit": 10,
+        "dir" : {
+            "<dir name>": {
+                "sortBy":"date",
+                "create_index": true
+            },
+            "<dir name>": {
+                "sortBy":"date",
+                "create_index": true
+            }
+        },
+        "taxonomy": {
+            "<type>": {
+                "sortBy":"date",
+                "create_index": true
+            },
+            "<type>": {
+                "sortBy":"date",
+                "create_index": true
+            }
+        }
    }
 }
 ```
