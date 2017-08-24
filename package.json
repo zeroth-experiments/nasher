@@ -22,7 +22,8 @@
     "handlebars": "^4.0.6",
     "json-pointer": "^0.6.0",
     "marked": "^0.3.6",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "safetydance": "^0.2.0"
   },
   "repository": {
     "type": "git",
